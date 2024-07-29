@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+
+body{justify-content: center;
+    align-items: center;
+    box-sizing:border-box;
+    background: url('cnt.jpg') no-repeat center center/cover;    
+    font-family: Arial, sans-serif;
+    
+
+
+}
+header{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 18rem;
+    text-align: center;
+    margin-left: 60rex;
+    padding: 10px;
+    /* background-color: rgba(232, 5, 5, 0.991); */
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px rgb(14, 151, 146);
+    background: url('night3.jpg') no-repeat center center/cover;    
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(153, 165, 165);
+    font-family: "merriweather black";
+
+}
+
+button {
+    background-color: #2eabd8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+    color: #fafafa;
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+}
+
+/* Add more styles as needed */
